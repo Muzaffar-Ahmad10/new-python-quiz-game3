@@ -1,0 +1,66 @@
+{
+    "username": "user1",
+    "language": "C++",
+    "results": [
+        {
+            "question": "What is C++?",
+            "user_answer": "C++ is a type of fruit.",
+            "correct_answer": "C++ is a high-level programming language developed as an extension of the C programming language.",
+            "is_correct": false
+        },
+        {
+            "question": "What is the syntax for declaring a variable in C++?",
+            "user_answer": "variable variable_name;",
+            "correct_answer": "data_type variable_name;",
+            "is_correct": false
+        },
+        {
+            "question": "Which symbol is used to denote a single-line comment in C++?",
+            "user_answer": "//",
+            "correct_answer": "//",
+            "is_correct": true
+        },
+        {
+            "question": "What is the purpose of 'cout' in C++?",
+            "user_answer": "'cout' is used to display output to the standard output device (usually the console).",
+            "correct_answer": "'cout' is used to display output to the standard output device (usually the console).",
+            "is_correct": true
+        },
+        {
+            "question": "How do you declare a constant variable in C++?",
+            "user_answer": "let data_type constant_name = value;",
+            "correct_answer": "const data_type constant_name = value;",
+            "is_correct": false
+        },
+        {
+            "question": "What is the purpose of the 'cin' object in C++?",
+            "user_answer": "'cin' is used to display output to the standard output device (usually the console).",
+            "correct_answer": "'cin' is used to accept input from the standard input device (usually the keyboard).",
+            "is_correct": false
+        },
+        {
+            "question": "What is the syntax for a 'for' loop in C++?",
+            "user_answer": "for (condition; initialization; increment/decrement) { // code to be executed }",
+            "correct_answer": "for (initialization; condition; increment/decrement) { // code to be executed }",
+            "is_correct": false
+        },
+        {
+            "question": "How do you declare and define a function in C++?",
+            "user_answer": "return_type function_name(parameters) { // function body }",
+            "correct_answer": "return_type function_name(parameters) { // function body }",
+            "is_correct": true
+        },
+        {
+            "question": "What is the purpose of the 'new' keyword in C++?",
+            "user_answer": "The 'new' keyword is used to accept input from the standard input device (usually the keyboard).",
+            "correct_answer": "The 'new' keyword is used to dynamically allocate memory for a variable or an object.",
+            "is_correct": false
+        },
+        {
+            "question": "What is the purpose of 'nullptr' in C++?",
+            "user_answer": "'nullptr' is a pointer literal representing a null pointer. It is used to indicate that a pointer does not point to any memory location.",
+            "correct_answer": "'nullptr' is a pointer literal representing a null pointer. It is used to indicate that a pointer does not point to any memory location.",
+            "is_correct": true
+        }
+    ]
+}
