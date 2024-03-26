@@ -2,7 +2,7 @@ import sys
 import os
 import json
 
-from views.App.quiz_app_handler import start_quiz
+from game.App.quiz_app_handler import start_quiz
 # load user data function
 
 
