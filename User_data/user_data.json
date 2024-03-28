@@ -2,5 +2,9 @@
     "user1": {
         "password": "user1",
         "email": "user1@gmail.com"
+    },
+    "user2": {
+        "password": "user2",
+        "email": "user2@gmail.com"
     }
 }
