@@ -1,8 +1,8 @@
-#import random module to shuffle the questions the user will get in terminal.
+# import random module to shuffle the questions the user will get in terminal.
 import random
 
-#This function will actually show all the questions one by one to the user
-#to choose the right answer among 4 options with every question.
+# This function will actually show all the questions one by one to the user
+# to choose the right answer among 4 options with every question.
 def display_quiz(questions):
     if not questions:
         print("\033[91mQuiz questions not found.\033[0m")
@@ -13,7 +13,7 @@ def display_quiz(questions):
 
     print("\n\n\033[95mStarting quiz...\033[0m\n\n")
 
-    #picking question one by one using for loop.
+    # picking question one by one using for loop.
     for question, answers_dict in questions.items():
         print(question + ":")
         options = [answers_dict["correct_answer"]] + answers_dict["wrong_answers"]
@@ -36,7 +36,7 @@ def display_quiz(questions):
             "correct_answer": correct_answer
         }
 
-        #checking if the answer is correct or not
+        # checking if the answer is correct or not
         if user_answer.lower() == correct_answer.lower():
             score += 1
 
