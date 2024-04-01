@@ -22,7 +22,6 @@
 - Play Quiz game
 - Be able to sign up as new user
 - Be able to login as existing user
-- Be able to read the rules
 - Be able to restart the game
 
 ### Site Owner Goals
@@ -182,5 +181,5 @@ Python code that passes through a linter (eg PEP8) with no significant issues. A
 
 ### Thank You
 - To my mentor Mo Shami for supporting me.
-- Special thanks to my friend to help me finding out the issues in the game
+- Special thanks to my friend to help me improve the game.
 - To Code Institute and Slack community for helping me when I was getting stuck with some challenges.
